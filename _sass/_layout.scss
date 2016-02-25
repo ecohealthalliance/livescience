@@ -1,6 +1,11 @@
 /**
  * Site header
  */
+body {
+      background-image: url('../grid-18px-masked.png');
+      background-repeat: repeat-x;
+}
+
 .site-header {
     /* border-top: 5px solid $grey-color-dark; */
     /*border-bottom: 1px solid $grey-color-light;*/
@@ -8,10 +13,10 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
-    background-image: url('../grid-18px-masked.png');
-    background-repeat: repeat-x;
-    padding-bottom: 200px;
-    margin-bottom: -200px;
+  //  padding-bottom: 200px;
+  //  margin-bottom: -200px;
+    z-index: 0;
+
 
 
 }
