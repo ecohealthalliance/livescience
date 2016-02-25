@@ -2,8 +2,9 @@
  * Site header
  */
 body {
-      background-image: url('../grid-18px-masked.png');
+      background-image: $background-image;
       background-repeat: repeat-x;
+      background-color: #FFF;
 }
 
 .site-header {
