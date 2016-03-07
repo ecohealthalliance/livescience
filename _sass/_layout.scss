@@ -1,16 +1,17 @@
 /**
  * Site header
  */
-body {
+/*body {
       background-image: $background-image;
       background-repeat: repeat-x;
       background-color: #FFF;
-}
+}*/
 
 .site-header {
     /* border-top: 5px solid $grey-color-dark; */
     /*border-bottom: 1px solid $grey-color-light;*/
     min-height: 56px;
+    background-color: $header-color;
 
     // Positioning context for the mobile navigation icon
     position: relative;
@@ -18,8 +19,10 @@ body {
   //  margin-bottom: -200px;
     z-index: 0;
 
+}
 
-
+.header-logo svg * {
+  fill: $logo-color;
 }
 
 .site-title {
@@ -57,16 +60,25 @@ body {
 }
 
 .site-nav {
-    float: right;
-    line-height: 56px;
+   float: right;
+  padding: 15px 35px;
+/*  margin-bottom: 15px;
+  background: #124550;
+  text-align: center;*/
 
     .menu-icon {
         display: none;
     }
 
     .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
+        //color: $text-color;
+        //line-height: $base-line-height;
+    /*      -moz-transition: color 0.2s;
+          -o-transition: color 0.2s;
+          -webkit-transition: color 0.2s;
+          transition: color 0.2s;
+          color: #64a4b5;
+          font-size: 13px; */
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {
@@ -123,6 +135,7 @@ body {
         }
     }
 }
+
 
 
 

@@ -5,4 +5,4 @@ date:   2016-01-19
 categories: predict
 ---
 
-[PDF Report]({{site.baseurl}}/predict/reports/2016-01-08-ebola-bat-reservoir-distribution.pdf)
+[PDF Report](file:///Users/noamross/Dropbox%20(EHA)/projects/ma-site/predict/reports/2016-01-19-influenza-in-markets.pdf)

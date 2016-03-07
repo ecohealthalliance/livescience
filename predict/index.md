@@ -37,6 +37,6 @@ Here you will find reports and ongoing work from the [PREDICT](http://www.vetmed
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">Subscribe <a href="{{ "predict/predict.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <p class="rss-subscribe">Subscribe <a href="{{ "/predict/predict.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
