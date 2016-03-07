@@ -1,7 +1,7 @@
 ---
 title: "EHA Styling Test Page"
 author: "Noam Ross"
-layout: default_eha
+layout: page
 ---
 
 # Live Science Page

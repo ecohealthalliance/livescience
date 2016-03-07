@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+  {% include head_eha.html %}
 
   <body>
 
-    {% include header.html %}
+    {% include header_eha.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
+    <div class="b-marked">
+      <div class="b-content b-generic-page">
+        <div class="j-content">
+            {{ content }}
+        </div>
       </div>
     </div>
 
-    {% if page.categories contains 'predict' %}
-    {% include predict-footer.html %}
-    {% else %}
-    {% include footer.html %}
-    {% endif %}
+    {% include footer_eha.html %}
 
   </body>
 

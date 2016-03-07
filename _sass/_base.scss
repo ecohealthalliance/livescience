@@ -37,20 +37,7 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 }
 
-/* .post-content p {
-  font-family: $content-font-family;
-}
 
-.post-content p a {
-      font-weight: 700;
-    }
-
-p.rss-subscribe {
-  font-family: $base-font-family;
-}
-p.rss-subscribe a {
-      font-weight: $base-font-weight;
-}*/
 
 /**
  * Images
@@ -171,7 +158,6 @@ pre {
 .wrapper {
     max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
     max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width: $content-width;
     margin-right: auto;
     margin-left: auto;
     padding-right: $spacing-unit;

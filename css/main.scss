@@ -7,7 +7,9 @@
 
 // Our variables
 // $content-font-family: "Crimson Text", Georgia, serif;
-$base-font-family: "Montserrat", Helvetica, Arial, sans-serif;
+$sans-font: "Montserrat", Helvetica, Arial, sans-serif;
+$serif-font: "Crimson Text", Georgia, serif;
+$base-font-family: $serif-font;
 $base-font-size:   16px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
@@ -35,8 +37,6 @@ $content-width:    1200px;
 $on-palm:          600px;
 $on-laptop:        1200px;
 
-
-
 // Use media queries like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -54,8 +54,7 @@ $on-laptop:        1200px;
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
-        "base",
-        "layout",
-        "syntax-highlighting",
-        "eha-site"
-;
+//        "base",
+//        "layout",
+//        "syntax-highlighting",
+        "eha";
