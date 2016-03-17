@@ -1,6 +1,10 @@
 {
-    "path" : "~/Dropbox (EHA)/projects/ma-site",
+    "path" : "~/Dropbox (EHA)/projects/ma-site/_layouts",
     "sortOrder" : [
+        {
+            "ascending" : false,
+            "columnIndex" : 4
+        },
         {
             "ascending" : true,
             "columnIndex" : 2

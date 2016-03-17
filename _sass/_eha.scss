@@ -4,12 +4,12 @@
 .j-content {
   p, blockquote, dl, ol, ul, li {
     font: $base-font-weight #{$base-font-size}/#{$base-line-height} $serif-font;
+    color: $text-color;
   }
 
   h1, h2, h3, h4 {
     font-family: $sans-font;
   }
-  color: $text-color;
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
@@ -21,6 +21,10 @@ ul, ol, dl, figure,
 img {
     max-width: 100%;
     vertical-align: middle;
+}
+
+a {
+  color: $link-color !important;
 }
 
 }

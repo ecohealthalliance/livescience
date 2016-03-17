@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html>
-
-  {% include head_eha.html %}
-
-  <body>
-
-    {% include header_eha.html %}
+  <head>
+  {% include head_eha_auto.html %}
+  {% include head_eha_add.html %}
+  </head>
+  <body class="page page-template-default siteorigin-panels" ng-app="ecohealth">
+    <header class="b-header b-header_with-text-title">
+    {% include header_eha_auto.html %}
+    {% include header_eha_add.html %}
+    </header>
 
     <div class="b-marked">
       <div class="b-content b-generic-page">
@@ -15,8 +18,13 @@
       </div>
     </div>
 
-    {% include footer_eha.html %}
-
+    <footer class="b-footer">
+    {% include footer_eha_auto.html %}
+    {% include footer_eha_add.html %}
+    </footer>
+    <script type='text/javascript' src='http://www.ecohealthalliance.org/wp-content/themes/ecohealth-alliance/assets/js/plugins.js?ver=1'></script>
+<script type='text/javascript' src='http://www.ecohealthalliance.org/wp-content/themes/ecohealth-alliance/assets/js/all.js?ver=1'></script>
+<script type='text/javascript' src='http://www.ecohealthalliance.org/wp-includes/js/wp-embed.min.js?ver=4.4.2'></script>
   </body>
 
 </html>
