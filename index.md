@@ -2,7 +2,7 @@
 title: Live Science
 layout: page
 subhead: "**Live Science** is EcoHealth Alliance's site for in-progress analyses and scientific reports that we share with our partners, the research community and the public."
-redirect_from: "/predict"
+redirect_from: "/predict/"
 ---
 
 <div class="home">
