@@ -12,8 +12,8 @@ predict-email: PREDICTmodeling@ecohealthalliance.org
 description: > # this means to ignore newlines until "baseurl:"
   Live Science is EcoHealth Alliance's home for in-progress
   analyses and scientific reports.
-baseurl: "/livescience" # the subpath of your site, e.g. /blog
-url: "http://ecohealthalliance.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://livescience.ecohealthalliance.org" # the base hostname & protocol for your site
 twitter_username: EcoHealthNYC
 
 # Build settings
@@ -22,3 +22,6 @@ permalink: pretty
 
 exclude:
   - TODO.md
+  - .Rproj.user
+  - .Rhistory
+  - ma-site.Rproj
