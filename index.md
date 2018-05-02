@@ -23,7 +23,7 @@ redirect_from: "/predict/"
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          {{ post.title }} <a href="{{ post.pdf | prepend: site.baseurl }}">[PDF]</a>
+          {{ post.title }} <a href="{{ post.pdf | prepend: site.baseurl }}">[PDF]</a>{% if post.pdf_fr %} <a href="{{ post.pdf_fr | prepend: site.baseurl }}">[PDF (fr)]</a> {% endif %}
         </h2>
 
       </li>
